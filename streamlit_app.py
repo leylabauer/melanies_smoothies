@@ -17,7 +17,7 @@ st.write('Your new Goose name is: ', name_on_order)
 
 
 # session = get_active_session()
-my_dataframe = session.table("smoothies.public.fruit_options"))
+my_dataframe = session.table("smoothies.public.fruit_options")
 # st.dataframe(data=my_dataframe, use_container_width=True)
 
 ingredients_list = st.multiselect(
